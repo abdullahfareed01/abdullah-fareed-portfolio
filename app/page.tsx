@@ -155,10 +155,10 @@ export default function Home() {
             </div>
             <div className="about-body">
               <p className="intro-paragraph">
-                I&apos;I'm an AI Engineer and Developer passionate about
-                building intelligent applications and innovative software
-                solutions. I enjoy turning ambitious ideas into practical,
-                user-friendly digital products.
+                I&apos;m an AI Engineer and Developer passionate about building
+                intelligent applications and innovative software solutions. I
+                enjoy turning ambitious ideas into practical, user-friendly
+                digital products.
               </p>
               <p>
                 My work lives at the intersection of clean design and thoughtful
@@ -525,12 +525,18 @@ export default function Home() {
             AF<span>.</span>
           </a>
           <span>ABDULLAH FAREED © 2026</span>
-          <div>
+          <nav className="footer-links" aria-label="Footer navigation">
             <a href={linkedin} target="_blank" rel="noreferrer">
               LINKEDIN ↗
             </a>
             <a href={email}>EMAIL ↗</a>
             <a href="#top">BACK TO TOP ↑</a>
+          </nav>
+        </div>
+        <div className="footer-chat-rail" aria-hidden="true">
+          <div className="shell footer-chat-rail-inner">
+            <span className="footer-chat-signal" />
+            <span>THE CONVERSATION CONTINUES</span>
           </div>
         </div>
       </footer>
