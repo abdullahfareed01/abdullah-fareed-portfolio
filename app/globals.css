@@ -123,3 +123,17 @@ h1,h2,h3{font-family:'Space Grotesk',Arial,sans-serif}
 @media(max-width:620px){.twin-launcher{right:12px;bottom:12px;min-width:0;gap:8px;padding:7px 10px 7px 7px}.twin-launcher-icon{width:35px;height:35px;font-size:16px}.twin-launcher-copy small{font-size:7px}.twin-launcher-copy strong{font-size:11px}.twin-launcher-arrow{font-size:16px}.twin-overlay{padding:0}.twin-panel{width:100%;height:100dvh;border:0;animation:none}.twin-conversation{padding:20px 16px}.twin-welcome h3{font-size:35px}.twin-compose-note{font-size:7px}}
 @media(prefers-reduced-motion:reduce){.twin-panel,.twin-typing span{animation:none}}
 .twin-launcher-icon,.twin-avatar,.twin-message-avatar,.twin-welcome-mark{display:flex;align-items:center;justify-content:center}
+
+@media(max-width:850px){
+  .mobile-nav summary{width:44px;height:44px;border-color:var(--orange);background:var(--ink-2);box-shadow:3px 3px 0 var(--lime);transition:background .2s,box-shadow .2s}
+  .mobile-nav summary span{height:2px;background:var(--paper);transition:transform .2s,background .2s}
+  .mobile-nav[open] summary{background:var(--orange);box-shadow:3px 3px 0 var(--ink)}
+  .mobile-nav[open] summary span{background:var(--ink)}
+  .mobile-nav[open] summary span:first-child{transform:translateY(4px) rotate(45deg)}
+  .mobile-nav[open] summary span:last-child{transform:translateY(-4px) rotate(-45deg)}
+  .mobile-nav nav{top:49px;width:min(250px,calc(100vw - 36px));background:var(--ink-2);border:1px solid #546655;border-top:3px solid var(--orange);box-shadow:0 22px 45px #10171640;padding:8px}
+  .mobile-nav nav a{display:flex;align-items:center;min-height:44px;padding:10px 12px;color:var(--paper);border-left:2px solid transparent;transition:background .2s,color .2s,border-color .2s}
+  .mobile-nav nav a+a{border-top:1px solid #ffffff15}
+  .mobile-nav nav a:hover,.mobile-nav nav a:focus-visible{background:#2c3b33;color:var(--lime);border-left-color:var(--orange)}
+  .mobile-nav nav a:active{background:var(--orange);color:var(--ink)}
+}
