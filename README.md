@@ -2,7 +2,7 @@
 
 A personal portfolio for Abdullah Fareed, a software engineering student and frontend developer in Karachi, Pakistan. The site presents his background, career journey, current skills, and Neighbour Alerts final-year project. It also includes a career-focused AI digital twin that answers visitor questions using verified profile facts.
 
-**Live site:** <https://abdullah-fareed-portfolio.netlify.app>
+**Live site:** <https://abdullahfareed.netlify.app/>
 
 ## About the site
 
