@@ -50,7 +50,7 @@ export default function Home() {
         <div className="hero-grid" aria-hidden="true" />
         <div className="shell hero-content">
           <div className="hero-copy">
-            <div className="eyebrow hero-eyebrow"><span className="live-dot" /> FRONTEND DEVELOPER <span className="eyebrow-slash">/</span> KARACHI, PK</div>
+            <div className="eyebrow hero-eyebrow"><span className="live-dot" /> AI ENGINEER <span className="eyebrow-slash">/</span> KARACHI, PK</div>
             <h1 id="hero-title">Digital thinking.<br /><span>Human impact.</span></h1>
             <p className="hero-lede">I&apos;m Abdullah Fareed. I build considered interfaces and explore how emerging technology can make everyday experiences better.</p>
             <div className="hero-actions">
